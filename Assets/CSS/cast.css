@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Engravers' Gothic", Georgia, Serif;
+  font-family: canter;
 }
 
 /*footer > ul > li {
@@ -46,9 +46,7 @@ h4 {
 }
 p {
   font-size: 20px;
-  line-height: 2;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
   text-align: justify;
 }
 figcaption {
@@ -71,29 +69,27 @@ ul > li {
   display: inline;
   margin: 0 5px;
 }
-#Doug {
-  widows: 90%;
-}
 
-/*#education > p {
-  text-align: justify;
-}*/
 
 #footer {
   background-color: #151245;
   text-align: center;
   padding: 30px;
 }
-#making > img {
-  padding: 50px;
-  align-content: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+#PedroCapo {
+  width: 100%;
+  align-items: center;
 }
 .makingimg {
   padding: 50px;
-}
-#cast > div > p {
-  text-align: center;
-  margin-right: 15px padding: 50px;
+
+#cast {
+  font-size: 30px;
+  line-height: 2;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  text-align: justify;
+  padding: 50px;
+  align-items: center;
 }

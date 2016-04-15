@@ -1,7 +1,8 @@
 body {
   margin: 0;
-  font-family: "Engravers' Gothic", Georgia, Serif;
+  font-family: canter;
 }
+
 
 /*footer > ul > li {
     display: inline;
@@ -71,9 +72,6 @@ ul > li {
   display: inline;
   margin: 0 5px;
 }
-#Doug {
-  widows: 90%;
-}
 
 /*#education > p {
   text-align: justify;
@@ -84,16 +82,14 @@ ul > li {
   text-align: center;
   padding: 30px;
 }
-#making > img {
-  padding: 50px;
-  align-content: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
+
 .makingimg {
-  padding: 50px;
+  padding: 60px;
+  height: 300px;
+  transform: rotate(90deg);
+  filter: grayscale(100%);
 }
-#cast > div > p {
-  text-align: center;
-  margin-right: 15px padding: 50px;
+
+.makingimg:hover {
+    filter: none;
 }

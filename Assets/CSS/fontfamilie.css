@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'canter-bold';
+  src: url('Assets\fonts\Canter-Bold.otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'canter-light';
+  src: url('Assets\fonts\Canter-Light.otf');
+}
