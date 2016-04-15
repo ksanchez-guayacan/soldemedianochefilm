@@ -19,14 +19,18 @@ body {
 
 header {
   background-color: #151245;
-  padding: 67px;
+    padding: 30px 67px;
 }
 header h1 {
   color: #ffffff;
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 800;
   margin: 0, 0, 40px, 0;
   text-align: center;
+  line-height: .50;
+}
+.nav{
+  margin-top: 30px;
 }
 header .nav > ul {
   list-style: none;

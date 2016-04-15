@@ -6,6 +6,9 @@
   <title>Sol de Medianoche Film</title>
   <link rel="stylesheet" href="Assets\CSS\bootstrap.css">
   <link rel="stylesheet" href="Assets\CSS\cast.css">
+
+  <script type="text/javascript" src="Assets\js\jquery.js"></script>
+  <script type="text/javascript" src="Assets\js\bootstrap.js"></script>
 </head>
 
 <body>
@@ -14,7 +17,8 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-xs-12">
-          <h1>Sol de Medianoche Film</h1>
+          <h1>Sol de Medianoche</h1>
+          <h1>The Film</h1>
         </div>
       </div>
     </div>
@@ -45,17 +49,89 @@
         </div>
         <div class="row" id="cast">
           <div class="col-md-4 col-xs-12">
-            <img id="PedroCapo" src="Assets\Images\Cast-PedroCapo.jpg" alt="PedroCapo" width="150">
+            <!-- Cast Button trigger modal -->
+            <button type="button" data-toggle="modal" data-target="#myModal1">
+              <img id="castpic" src="Assets\Images\Placeholder.png" alt="PedroCapo" width="150">
+            </button>
           </div>
-          <h4>Pedro Capó as Manolo and Frank</h4>
-          <p class="col-md-8 col-xs-12s">
-            Capó, born Pedro Capó, has an inherent great love for music. Born in the land of his ancestors, San Juan, Puerto Rico, he lived a life of bohemian inspirations. Grandson of the brilliant Puerto Rican singer/songwriter Bobby Capó, renown melodist and singer
-            of the 1940’s and son of the unforgettable singer and cultivator of the trova and salsa Bobby Capó, this young singer/songwriter is the third generation member of a family tradition that has left its stamp in Latin music. “My dad would include me in his process of songwriting and would invite me to contribute in his songs since I was a boy,” he remembers. Currently he is looking forward to the premiere of the film “Paraiso Travel.” The film is directed by Simon Brand, co-starring John Leguizamo. Participating in all of these projects forced Capó to take a break from his compositions, but it also planted a seed in him to love acting.
-          </p>
+          <div class="col-md-4 col-xs-12">
+            <!-- Cast Button trigger modal -->
+            <button type="button" data-toggle="modal" data-target="#myModal2">
+              <img id="castpic" src="Assets\Images\Placeholder.png" alt="ArisMejia" width="150">
+            </button>
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <!-- Cast Button trigger modal -->
+            <button type="button" data-toggle="modal" data-target="#myModal3">
+              <img id="castpic" src="Assets\Images\Placeholder.png" alt="AnaIsabelle" width="150">
+            </button>
+          </div>
         </div>
       </div>
     </section>
   </main>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document" style="width:91%;">
+      <div class="modal-content">
+        <div class="modal-body row">
+          <div class="col-xs-12 col-md-4">
+            <img id="castpic" src="Assets\Images\Placeholder.png" alt="PedroCapo" width="150">
+          </div>
+          <div class="col-xs-12 col-md-8">
+            <h4>Pedro Capó as Manolo and Frank</h4>
+            <p>
+              Capó, born Pedro Capó, has an inherent great love for music. Born in the land of his ancestors, San Juan, Puerto Rico, he lived a life of bohemian inspirations. Grandson of the brilliant Puerto Rican singer/songwriter Bobby Capó, renown melodist and singer
+              of the 1940’s and son of the unforgettable singer and cultivator of the trova and salsa Bobby Capó, this young singer/songwriter is the third generation member of a family tradition that has left its stamp in Latin music. “My dad would include
+              me in his process of songwriting and would invite me to contribute in his songs since I was a boy,” he remembers. Currently he is looking forward to the premiere of the film “Paraiso Travel.” The film is directed by Simon Brand, co-starring
+              John Leguizamo. Participating in all of these projects forced Capó to take a break from his compositions, but it also planted a seed in him to love acting.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document" style="width:91%;">
+      <div class="modal-content">
+        <div class="modal-body row">
+          <div class="col-xs-12 col-md-4">
+            <img id="castpic" src="Assets\Images\Placeholder.png" alt="ArisMejia" width="150">
+          </div>
+          <div class="col-xs-12 col-md-8">
+            <h4>Aris Mejia as Nadja</h4>
+            <p>
+              Capó, born Pedro Capó, has an inherent great love for music. Born in the land of his ancestors, San Juan, Puerto Rico, he lived a life of bohemian inspirations. Grandson of the brilliant Puerto Rican singer/songwriter Bobby Capó, renown melodist and singer
+              of the 1940’s and son of the unforgettable singer and cultivator of the trova and salsa Bobby Capó, this young singer/songwriter is the third generation member of a family tradition that has left its stamp in Latin music. “My dad would include
+              me in his process of songwriting and would invite me to contribute in his songs since I was a boy,” he remembers. Currently he is looking forward to the premiere of the film “Paraiso Travel.” The film is directed by Simon Brand, co-starring
+              John Leguizamo. Participating in all of these projects forced Capó to take a break from his compositions, but it also planted a seed in him to love acting.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document" style="width:91%;">
+      <div class="modal-content">
+        <div class="modal-body row">
+          <div class="col-xs-12 col-md-4">
+            <img id="castpic" src="Assets\Images\Placeholder.png" alt="AnaIsabelle" width="150">
+          </div>
+          <div class="col-xs-12 col-md-8">
+            <h4>Ana Isabelle as (Name)</h4>
+            <p>
+              Capó, born Pedro Capó, has an inherent great love for music. Born in the land of his ancestors, San Juan, Puerto Rico, he lived a life of bohemian inspirations. Grandson of the brilliant Puerto Rican singer/songwriter Bobby Capó, renown melodist and singer
+              of the 1940’s and son of the unforgettable singer and cultivator of the trova and salsa Bobby Capó, this young singer/songwriter is the third generation member of a family tradition that has left its stamp in Latin music. “My dad would include
+              me in his process of songwriting and would invite me to contribute in his songs since I was a boy,” he remembers. Currently he is looking forward to the premiere of the film “Paraiso Travel.” The film is directed by Simon Brand, co-starring
+              John Leguizamo. Participating in all of these projects forced Capó to take a break from his compositions, but it also planted a seed in him to love acting.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!--Footer-->
   <footer id="footer">

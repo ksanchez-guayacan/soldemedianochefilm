@@ -19,7 +19,10 @@ body {
 
 header {
   background-color: #151245;
-  padding: 67px;
+    padding: 30px 67px;
+}
+.nav{
+  margin-top: 30px;
 }
 header h1 {
   color: #ffffff;
