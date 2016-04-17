@@ -1,7 +1,32 @@
+.navbar-brand {
+  padding: 10px;
+  font-family: canter;
+  background-color: #151245;
+
+}
+
+.navbar-brand h1 {
+  color: #ffffff;
+  font-size: 40px;
+  margin-top: -12px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+    margin-bottom: -6px;
+    font-size: 20px;
+    margin-top: -3px;
+  }
+  
+.container-fluid {
+background-color: #151245;
+}
+
 body {
   margin: 0;
   font-family: canter;
 }
+
 
 
 /*footer > ul > li {
@@ -18,27 +43,11 @@ body {
 }*/
 
 
-.nav{
-  margin-top: 30px;
-}
-header {
+navbar navbar-default {
   background-color: #151245;
-  padding: 30px 67px;
 }
-header h1 {
-  color: #ffffff;
-  font-size: 60px;
-  font-weight: 800;
-  margin: 0, 0, 40px, 0;
-  text-align: center;
-  line-height: .50;
-}
-header .nav > ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
+
+
 h3 {
   font-size: 35px;
   font-weight: 800;
@@ -61,7 +70,7 @@ figcaption {
   line-height: 2;
   font-size: 20px;
 }
-li > a {
+#bs-example-navbar-collapse-1li > a {
   color: #ffffff;
   font-size: 20px;
   font-weight: 100;
