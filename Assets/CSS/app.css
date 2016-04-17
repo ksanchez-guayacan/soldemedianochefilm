@@ -1,52 +1,13 @@
-.navbar-brand {
-  padding: 10px;
-  font-family: canter;
-  background-color: #151245;
-
-}
-
-.navbar-brand h1 {
-  color: #ffffff;
-  font-size: 40px;
-  margin-top: -12px;
-}
-
-.navbar-default .navbar-nav > li > a {
-    color: #ffffff;
-    margin-bottom: -6px;
-    font-size: 20px;
-    margin-top: -3px;
-  }
-  
-.container-fluid {
-background-color: #151245;
+a {
+  color: #Ffffff;
+text-decoration: none;
+font-size: 20px;
 }
 
 body {
   margin: 0;
   font-family: canter;
 }
-
-
-
-/*footer > ul > li {
-    display: inline;
-    list-style: none;
-    text-align: center;
-}*/
-
-
-/*#footer {
-  background-color: #F1634F;
-  text-align: center;
-  padding: 15px;
-}*/
-
-
-navbar navbar-default {
-  background-color: #151245;
-}
-
 
 h3 {
   font-size: 35px;
@@ -59,6 +20,11 @@ h4 {
   font-size: 25px;
   line-height: 2;
 }
+
+navbar navbar-default {
+  background-color: #151245;
+}
+
 p {
   font-size: 20px;
   line-height: 2;
@@ -66,9 +32,10 @@ p {
   margin-bottom: 30px;
   text-align: justify;
 }
-figcaption {
-  line-height: 2;
-  font-size: 20px;
+
+ul > li {
+  display: inline;
+  margin: 0 5px;
 }
 #bs-example-navbar-collapse-1li > a {
   color: #ffffff;
@@ -76,39 +43,31 @@ figcaption {
   font-weight: 100;
   text-decoration: none;
 }
-section > h3 {
-  margin: 0 0 40px 0;
-}
-section figure > figcaption {
-  text-align: center;
-}
-ul > li {
-  display: inline;
-  margin: 0 5px;
-}
-#Doug {
-  widows: 90%;
-}
-
-/*#education > p {
-  text-align: justify;
-}*/
 
 #footer {
   background-color: #151245;
+  padding: 10px;
+  margin-bottom: -90px;
+  margin-top: 10px;
   text-align: center;
-  padding: 30px;
 }
-#making > img {
-  padding: 50px;
-  align-content: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+
+.container-fluid {
+  background-color: #151245;
 }
-.makingimg {
-  padding: 50px;
+
+.navbar-brand {
+  padding: 10px;
+  font-family: canter;
+  background-color: #151245;
 }
-#cast > div > p {
-  text-align: center;
-  margin-right: 15px padding: 50px;
+.navbar-brand h1 {
+  color: #ffffff;
+  font-size: 40px;
+  margin-top: -12px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: -3px;
 }
