@@ -11,9 +11,14 @@ section figure > figcaption {
   text-align: center;
 }
 
+#buttonparty {
+  width: 150px;
+  height: 150px;
+}
+
 #castpic {
-  width: 100%;
-  align-items: center;
+    align-items: center;
+
 }
 
 #cast {
@@ -21,7 +26,7 @@ section figure > figcaption {
   }
 
 .col-md-4 {
-    padding: 30px;
+    padding: 20px;
 }
 
 .modal-dialog {
