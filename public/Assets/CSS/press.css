@@ -10,3 +10,11 @@ p {
   margin-bottom: 500px;
   text-align: justify;
 }
+
+#presspic {
+ background: url("../Images/contact.JPG") center center no-repeat;
+ background-size: cover;
+ height:100%;
+ display: flex;
+ padding-top: 590px;
+}
