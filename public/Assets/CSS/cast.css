@@ -1,41 +1,42 @@
-figcaption {
-  line-height: 2;
-  font-size: 20px;
-}
 
-section > h3 {
-  margin: 0 0 40px 0;
+button.hover {
+  filter: none;
 }
-
-section figure > figcaption {
-  text-align: center;
-}
-
 #buttonparty {
   width: 150px;
   height: 150px;
 }
-
 #castpic {
-    align-items: center;
-
+  align-items: center;
+  filter: grayscale(100%);
 }
-
+#castpic2 {
+  transform: rotate(90deg);
+  filter: grayscale(100%);
+}
+#castpic2:hover {
+  filter: none;
+}
+#castpic:hover {
+  filter: none;
+}
 #cast {
   margin-top: 5px;
-  }
-
-.col-md-4 {
-    padding: 20px;
 }
 
+#cast:hover {
+  filter: none;
+
+}
+
+.col-md-4 {
+  padding: 20px;
+}
 .modal-dialog {
+  width: 90%;
+}
+@media (min-width: 768px) {
+  .modal-dialog {
     width: 90%;
   }
-
-
-@media (min-width: 768px) {
-    .modal-dialog {
-      width: 90%;
-    }
-  }
+}

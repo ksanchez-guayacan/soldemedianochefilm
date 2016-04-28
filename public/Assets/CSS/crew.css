@@ -17,3 +17,9 @@ section > h3 {
 section figure > figcaption {
   text-align: center;
 }
+
+#Doug {
+  width: 320px;
+  margin-left: 20px;
+  margin-top: 20px;
+}

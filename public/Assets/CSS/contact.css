@@ -52,6 +52,15 @@ ul > li {
   text-align: center;
 }
 
+#contact {
+ background: url("../Images/press.JPG") center center no-repeat;
+ background-size: cover;
+ height:100%;
+ display: flex;
+ padding-top: 590px;
+}
+
+
 .container-fluid {
   background-color: #151245;
 }

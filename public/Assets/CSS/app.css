@@ -12,8 +12,7 @@ body {
 h3 {
   font-size: 35px;
   font-weight: 800;
-  margin-top: 10px;
-  margin-bottom: 30px;
+margin-top: 60px;
   line-height: 2;
 }
 h4 {
@@ -21,9 +20,6 @@ h4 {
   line-height: 2;
 }
 
-navbar navbar-default {
-  background-color: #151245;
-}
 
 p {
   font-size: 20px;
@@ -42,7 +38,11 @@ ul > li {
   font-size: 20px;
   font-weight: 100;
   text-decoration: none;
+  background-color: #151245;
+  position: absolute;
+  z-index: 3;
 }
+
 
 #footer {
   background-color: #151245;
