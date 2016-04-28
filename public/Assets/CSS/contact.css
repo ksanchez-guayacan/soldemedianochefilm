@@ -58,6 +58,11 @@ ul > li {
  height:100%;
  display: flex;
  padding-top: 590px;
+   filter: grayscale(100%);
+}
+
+#contact:hover {
+  filter: none;
 }
 
 

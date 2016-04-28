@@ -3,9 +3,15 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+
+ a {
+   color: #151245;
+ }
+
  body {
    margin: 0;
    font-family: canter;
+   color: #151245;
  }
 
  p {
@@ -14,6 +20,7 @@
    margin-top: 10px;
    margin-bottom: 500px;
    text-align: justify;
+   color: #151245;
  }
 
  h3 {
@@ -49,7 +56,7 @@
  }
 
  .thumbnail img {
-     width: 100%;
+     width: 300px;
  }
 
  .ratings {

@@ -6,4 +6,13 @@
  padding-top: 590px;
  position: relative;
 overflow-x: hidden;
+  filter: grayscale(100%);
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+#cover:hover {
+  filter: none;
 }
